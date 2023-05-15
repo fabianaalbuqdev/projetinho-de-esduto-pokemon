@@ -12,13 +12,13 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5b74;
+    background-color: #5e5b5bad;
     color: #333333;
 }
 
 body.modo-escuro {
-    background-color: #131212;
-    color: #0e0d0d;
+    background-color: #212121;
+    color: #f5f5f5;
 }
 
 header {
@@ -44,8 +44,7 @@ header .logo:hover, header .imagem-botao:hover, main .cartao-pokemon:hover{
     cursor: pointer;
 }
 
-main {
-    background-color: #5e5b5bad;
+main {  
     padding: 25px;
 }
 
@@ -73,7 +72,7 @@ main {
     transition: 0.2s ease-in-out;
 }
 
-.modo-escuro .cartao-hover {
+.modo-escuro .cartao-pokemon {
     background-color: #a8a8a8;
 }
 
